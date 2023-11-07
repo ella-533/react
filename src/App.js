@@ -1,14 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
- 
+import Footer from "./Footer";
+import Header from "./Header";
+import LatestArticles from "./LatestArticles";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Bonjour la piscine</h1>
-        <p>C'est parti</p>
-      </header>
+    <div>
+      <Header />
+      <LatestArticles />
+      <Footer />
     </div>
   );
 }
